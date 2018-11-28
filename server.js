@@ -5,6 +5,6 @@ var my_url = 'http://' + ip + ':' + port + '/';
 
 http.createServer(function (req, res) {
   res.writeHead(200, {'Content-Type': 'text/plain'});
-  res.end('Hello, node.js World. Listening at ' + my_url + '\\n');
+  res.end('Hello, node.js World. Listening at ' + my_url + '\n');
 }).listen(port, ip);
 console.log('Server running at ' + my_url);
